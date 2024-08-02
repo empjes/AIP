@@ -16,3 +16,8 @@ canget(state(_,_,_,has)).
 canget(State1) :-
    move(State1,_,State2),
    canget(State2).
+
+
+output
+trace.
+canget(state(atdoor,onfloor,atwindow,hasnot)).
