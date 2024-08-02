@@ -36,3 +36,7 @@ min_list([H,K|T], Min) :-
 min_list([H,K|T], Min) :-
     H > K,
     min_list([K|T], Min).
+
+
+output 
+tsp(a,Path,MinDist).
