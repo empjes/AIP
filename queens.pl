@@ -13,10 +13,6 @@ Q=\=Q1+D,
 Q=\=Q1 - D,
 D1 is D+1,
 safe_from(Q,Queens,D1).
-permutation([],[]).
-permutation(L,[H|T]):-
-select(H,L,R),
-permutation(R,T).
-select(X,[X|T],T).
-select(X,[H|T],[H|R]):-
-select(X,T,R).
+
+output
+solve_4_queens(Queens).
